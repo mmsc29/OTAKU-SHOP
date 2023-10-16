@@ -1,0 +1,77 @@
+#page-title {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 40px;
+}
+
+#loginput {
+    width: 450px;
+    height: 60px;
+    padding: 10px 20px;
+    margin: 10px auto 0;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#pwdforget,
+#keeplogin {
+    /* border: 1px solid red; */
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+#pwdforget>a {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #393939;
+    font-size: 16px;
+    text-decoration: underline;
+
+    width: 450px;
+    text-align: end;
+}
+
+#pwdforget>a:hover {
+    color: rgb(211, 211, 211);
+}
+
+#keeplogin {
+    /* border: 1px solid red; */
+    width: 450px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #393939;
+    font-size: 16px;
+}
+
+#loginbtn {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 250px;
+
+}
+
+button {
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(65, 90, 111);
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(209, 225, 215);
+    color: rgb(65, 90, 111);
+}
+
+#loginbtn>p {
+    line-height: 37px;
+    font-size: 18px;
+}

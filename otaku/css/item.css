@@ -1,0 +1,259 @@
+#item-page {
+    margin-top: 50px;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+/* nav */
+
+.cartlink {
+    position: relative;
+}
+
+
+/* 左 */
+
+#item-Carousel {
+    padding: 10px;
+    /* background-color: aqua; */
+}
+
+#itemimg_div>div {
+    /* border: 1px solid red; */
+    /* margin: 3px; */
+    padding: 5px;
+}
+
+#itemimg_div p {
+    font-family: 'Noto Sans TC', sans-serif;
+    text-decoration: underline;
+
+    margin: 0;
+}
+
+.itemimg {
+    margin: 0 0 5px;
+    width: 100%;
+}
+
+#itemimg_div div:hover {
+    transform: scale(1.2);
+}
+
+
+
+/* 右 */
+/* 名稱價錢 */
+#items-name,
+#items-price {
+    font-family: 'Heebo', sans-serif;
+    margin: 0 0 10px 30px;
+    font-size: 36px;
+}
+
+/* 款式 */
+#item-page h5,
+#item-page>p {
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: start;
+    margin: auto 15px auto 30px;
+    padding: 0;
+}
+
+/* 顏色 */
+#color {
+    margin-top: 30px;
+    display: flex;
+}
+
+.color-btn {
+    font-family: 'Heebo', sans-serif;
+    background-color: white;
+    color: rgb(65, 90, 111);
+
+    border: 1.5px solid rgb(65, 90, 111);
+    border-radius: 20px;
+
+    width: 50px;
+    height: 35px;
+    padding: 2px 0;
+    margin-right: 10px;
+}
+
+
+/* 尺寸 */
+/* border: 1px solid red; */
+/* background-color: 1px solid red; */
+
+#item-size {
+    margin-top: 30px;
+    display: flex;
+}
+
+.btn-type {
+    --bs-btn-color: rgb(65, 90, 111);
+    --bs-btn-border-color: rgb(65, 90, 111);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(65, 90, 111);
+    --bs-btn-hover-border-color: rgb(65, 90, 111);
+    --bs-btn-focus-shadow-rgb: 220, 53, 69;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgb(65, 90, 111);
+    --bs-btn-active-border-color: rgb(65, 90, 111);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: rgb(65, 90, 111);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: rgb(65, 90, 111)5;
+    --bs-gradient: none;
+
+    border-radius: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-right: 10px;
+    width: 45px;
+}
+
+
+
+/* 數量 */
+#item-qty {
+    margin-top: 30px;
+    display: flex;
+}
+
+#item-qty ul {
+    margin: auto 0;
+    padding: 0;
+}
+
+.qty-btn {
+    width: 30px;
+    height: 30px;
+
+    padding: 0;
+    margin: 3px auto;
+
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+
+    border: none;
+    border-radius: 17px;
+    background-color: rgb(65, 90, 111);
+    color: white;
+}
+
+.qty-btn:hover {
+    background-color: rgb(105, 129, 148);
+}
+
+#item-qty input {
+    width: 55px;
+    height: 35px;
+
+    margin: auto 8px;
+
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+
+    text-align: center;
+    border: 1.5px solid lightslategray;
+    border-radius: 3px;
+}
+
+#item-qty li {
+    display: block;
+    float: left;
+}
+
+/* 購物車 */
+#cartbtn {
+    font-family: 'Noto Sans TC', sans-serif;
+
+    background-color: rgb(65, 90, 111);
+    color: white;
+
+    border: 1.5px solid rgb(65, 90, 111);
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    width: 200px;
+    height: 50px;
+
+    padding: 5px;
+    margin: 40px auto 0 30px;
+    text-align: center;
+}
+
+#cartbtn:active {
+    background-color: rgb(105, 129, 148);
+    box-shadow: none;
+}
+
+/* 描述 */
+#myTab {
+    margin: 50px 0 0 30px;
+}
+
+#myTab>li {
+    width: 50%;
+}
+
+#myTabContent {
+    margin: 10px 0 0 30px;
+    padding: 20px 25px 30px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+
+}
+
+#iteminfo-tab,
+#itemsize-tab {
+    width: 100%;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgb(65, 90, 111);
+}
+
+#item-des {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #393939;
+}
+
+#item-des>h5,
+#item-des>p {
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: start;
+    margin: 15px 0 10px;
+    padding: 0;
+}
+
+#size-table {
+    background-color: rgb(209, 225, 215);
+
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+    color: grey;
+
+    width: 100%;
+    text-align: center;
+    border: 1px solid white;
+
+    margin: 20px auto;
+}
+
+th {
+    border: 1px solid white;
+    height: 40px;
+}
+
+td {
+    background-color: white;
+    border: 1px solid rgb(209, 225, 215);
+    height: 40px;
+}
+
+/* 頁尾 */
+footer {
+    margin-top: 100px;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./css/bootstrap.js"></script>
+    <link rel="Shortcut Icon" type="image/x-icon" href="./img/icon/icons8-futurama-fry-48.png" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Zen+Antique&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <!-- navbar -->
+    <header>
+
+        <!-- nav1 -->
+        <div class="nav1_div">
+            <nav id="nav1" class="navbar navbar-expand-sm d-flex justify-content-around">
+                <a href="./index.html">
+                    <img src="./img/logo1.png" id="logo">
+                </a>
+
+                <h2> </h2>
+
+                <div>
+                    <ul class="navbar-nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img class="nav_icon" src="./img/icon/icons8-search-48.png"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./login.html">
+                                <img class="nav_icon" src="./img/icon/icons8-user-48.png"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img class="nav_icon" src="./img/icon/icons8-shopping-bag-48.png"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+
+
+
+        <!-- Offcanvas -->
+        <div id="menubtn">
+            <a class="btn" data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvas">
+                <img src="./img/icon/icons8-menu-50.png">
+            </a>
+            <a class="btn" href="#" role="button" id="topbtn" aria-controls="offcanvas">
+                <img src="./img/icon/icons8-arrow-50.png">
+            </a>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title" id="offcanvasLabel">MENU</h1>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul id="menu_list">
+                    <li>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne" id="CATEGORY-btn">
+                                    CATEGORY
+                                </div>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>T-SHIRTS</li>
+                                            <li>HAT</li>
+                                            <li>SOCKS</li>
+                                            <li>OTHER</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menulist">INFO</li>
+                    <li class="menulist">FAQ</li>
+                    <li class="menulist">LOG IN</li>
+
+                    <li id="socialmedialink" class="d-flex justify-content-around">
+                        <a href="#">
+                            <img class="menu-socialmedia" src="./img/icon/icons8-facebook-48.png">
+                        </a>
+                        <a href="#">
+                            <img class="menu-socialmedia" src="./img/icon/icons8-instagram-48.png">
+                        </a>
+                        <a href="#">
+                            <img class="menu-socialmedia" src="./img/icon/icons8-line-48.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <!-- nav2 -->
+        <div id="nav2_div">
+            <nav id="nav2" class="navbar navbar-expand-sm justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">T-SHIRTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HAT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SOCKS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">OTHER</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+
+
+    </header>
+
+
+
+    <!-- login -->
+    <div>
+        <div id="page-title">會員登入</div>
+        <input id="loginput" type="mail" placeholder="電子郵件地址"><br>
+        <input id="loginput" type="password" placeholder="密碼">
+
+        <div id="pwdforget"><a href="#">忘記密碼</a></div>
+        <div id="loginbtn">
+            <a href="./index.html"><button>登入</button><br></a>
+            <p>或</p><br>
+            <a href="#"></a><button>註冊新會員</button></a>
+        </div>
+    </div>
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <ul class="d-flex justify-content-around">
+                <li><a class="foot-text" href="#">條款與細則</a></li>
+                <li><a class="foot-text" href="#">退換貨政策</a></li>
+                <li><a class="foot-text" href="#">常見問題</a></li>
+                <li><a class="foot-text" href="#">商店客服</a></li>
+                <li><a class="foot-text" href="#">聯絡我們</a></li>
+            </ul>
+        </div>
+
+        <div class="d-flex justify-content-center" id="copyright">
+            <img class="foot-icon" src="./img/icon/icons8-rick-sanchez-48.png">
+            <p>2023 © otaku</p>
+            <img class="foot-icon" src="./img/icon/icons8-morty-smith-48.png">
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
